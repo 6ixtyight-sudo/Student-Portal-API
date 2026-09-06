@@ -1,0 +1,30 @@
+{
+  "name": "student-portal-api-1",
+  "version": "1.0.0",
+  "description": "Backend API for a student portal that manage student profile details.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node/server.js",
+    "dev": "nodemon/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6ixtyight-sudo/Student-Portal-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/6ixtyight-sudo/Student-Portal-API/issues"
+  },
+  "homepage": "https://github.com/6ixtyight-sudo/Student-Portal-API#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
