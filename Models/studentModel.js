@@ -16,6 +16,11 @@ const studentSchema = new mongoose.Schema({
         type: String,
         required: true,
         unique: true
+    },
+    
+    course:{
+        type: String,
+        required: true
     }
 });
 
