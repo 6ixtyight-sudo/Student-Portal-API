@@ -21,8 +21,13 @@ const studentSchema = new mongoose.Schema({
     course:{
         type: String,
         required: true
-    }
-});
+    },
+    
+    products:[{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Product"
+    }]
+},{timestamps: true});
 
 const Student = mongoose.model("Student", studentSchema);
 
