@@ -1,11 +1,12 @@
 import express from "express";
 import mongoose from "mongoose";
 import studentRoutes from "./Routes/studentRoute.js";
+import productRoute from "./Routes/productRoute.js";
 
 const app = express();
 app.use(express.json());
-app.use("/api/students", studentRoutes);
-
+app.use("/students", studentRoutes);
+app.use("/products", productRoute);
 const PORT = 3000;
 
 //app.use(express.json());
